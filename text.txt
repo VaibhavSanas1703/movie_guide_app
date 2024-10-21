@@ -1,8 +1,0 @@
-<div class="main-movie-container">
-          <div class="image">
-               
-          </div>
-          <div class="content">
-               
-          </div>
-</div>
