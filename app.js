@@ -67,6 +67,7 @@ document.addEventListener('keydown',(event) => {
      }
 })
 
+
 searchBtn.addEventListener('click',() => {
      if(searchInput.value == ''){
           alert('Please enter movie name?')
