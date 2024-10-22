@@ -18,6 +18,7 @@ const showMovie = async (movieName) => {
      console.log(data);
 
      let imageSourceNot = data.Poster == "N/A" ? "images/Image_not_available.png.webp" : data.Poster;
+     let runtime = data.Runtime == "N/A" ? "No found" : data.Runtime;
 
      if(data.Error === "Movie not found!"){
          alert('This Movie is not found in our database')
@@ -43,7 +44,7 @@ const showMovie = async (movieName) => {
                 <p>Country : <b>${data.Country}</b></p>
                 <p>Language : <b>${data.Language}</b></p>
                 <p>Genre : <b>${data.Genre}</b></p>
-                <p>Runtime : <b>${data.Runtime}</b></p>
+                <p>Runtime : <b>${runtime}</b></p>
                 <p>Actors : <b>${data.Actors}</b></p>
                 <p>Storyline : <b>${data.Plot}</b></p>
                 </div>
