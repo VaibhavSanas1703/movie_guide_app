@@ -104,17 +104,17 @@ input,button{
      margin-top: 100px;
      align-items: center;
      justify-content: center;
-     overflow: hidden;
 }
 
 .main-movie-container{
      width: 1000px;
-     height: 500px;
+     height: auto;
      display: flex;
      align-items: center;
      justify-content: center;
      padding: 30px 15px;
      gap: 50px;
+     margin-top: 40px;
 }
 
 #star{
@@ -125,6 +125,7 @@ input,button{
      width: 270px;
      border-radius: 5px;
      border: 3px solid var(--primary-color);
+     box-shadow: 0 0 4px var(--primary-color);
 }
 
 #text{
@@ -190,6 +191,10 @@ input,button{
      .search-box{
           width: 100%;
           justify-content: center;
+     }
+
+     .main-movie-container{
+          margin-top: -10px;
      }
 }
 

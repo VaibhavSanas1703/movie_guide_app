@@ -36,7 +36,7 @@ const showMovie = async (movieName) => {
            <div class="content">
                 <div class='top'>
                 <h1>${data.Title}</h1>
-                <h4> Rating : ${data.imdbRating} <img src=${imageSource} id='star'></h4>
+                <h4>IMDB Rating : ${data.imdbRating} <img src=${imageSource} id='star'></h4>
                 </div>
                 <div class='bottom'>
                 <p>Release Date : <b>${data.Released}</b></p>
